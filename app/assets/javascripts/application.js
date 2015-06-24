@@ -15,20 +15,38 @@
 //= require turbolinks
 //= require_tree .
 
+//NEED TO MAKE A BACK BUTTON THAT TAKES YOU BACK
+//TO THE PREVIOUS LINK AND A HOME BUTTON TO TAKE
+//YOU BACK TO START ENTIRELY AND RESET ALL VALUES
+
 
 //Button to start game, leads to intro message
 //directed at champion on light
+	function gameStart(){
+		$('#startButton').click(function(){
+			window.location = 'introduction';
+		})
+	}
 
-//"Hello Champion of Light! I'd like to ask you a few questions before we get started, alright?
-//First, whats your name?" Name input submission form, take value and make a var for 
+// "Hello Champion of Light! I'd like to ask you a few questions before we get started, alright?
+// First, whats your name?" Name input submission form, take value and make a var for 
 //later access. Must be at least five alphanumeric letters long, make sure that it's 
 //the name the user wants. If not clear value and let them input a new name, 
 //rinse and repeat until confirmed. Once submitted go to gender picker
-
+	function nameSubmit(){
+		$('#submitNameBtn').click(function(){
+			window.location = 'gender';
+		})
+	}
 
 //"Er... are you a man or a woman? This is a bit embarrassing to ask you know..."
 //Two clickable images, male or female, catch the value for later use, ask if certain. 
 //Once confirmed, move onto race options. 
+	function genderSubmit(){
+		$('#submitGender').click(function(){
+			window.location = 'gender';
+		})
+	}
 
 
 //"What race are you, sorry but you mortals all look the same to me!" (Human, Dwarf or Elf)

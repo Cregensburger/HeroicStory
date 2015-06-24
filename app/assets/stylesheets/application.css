@@ -16,8 +16,8 @@
 
 /* Header Styling */
 #headerImage {
-	background-color: green;
-	color: white;
+	background-color: #404040;
+	color: #FFE9DD;
 	height: 8em;
     padding-left: 0;
     padding-right: 0;
@@ -35,8 +35,9 @@
 
 /* Body Styling */
 body {
-	background-color: yellow;
+	background-color: #FFA46F;
 	border: 0;
+	color: #404040;
 	margin: 0;
 	padding: 0;
 }
@@ -54,9 +55,26 @@ body {
 	background: red;
 	border:1px solid #021a40;
 	border-radius: .5em;
-	height: 2em;
+	color: white;
+	height: 1em;
 	margin-left: 4em;
-	padding-top: 1em;
+	margin-top: 1em;
+	padding-bottom: .2em;
+	padding-top: .2em;
+	text-align: center;
+	width: 7em;
+}
+
+.continue {
+	background: blue;
+	border:1px solid #021a40;
+	border-radius: .5em;
+	color: white;
+	height: 1em;
+	margin-left: 4em;
+	margin-top: 1em;
+	padding-bottom: .2em;
+	padding-top: .2em;
 	text-align: center;
 	width: 7em;
 }
@@ -87,6 +105,6 @@ input#female {
 /* Footer Styling */
 #footerImage {
 	width: 100%;
-	padding-bottom: 11em;
-	background-color: orange;
+	padding-bottom: 12.5em;
+	background-color: #404040;
 }
